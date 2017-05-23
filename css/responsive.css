@@ -1,0 +1,165 @@
+@media only screen and (max-width: 860px) {
+  nav {
+    top: -20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #2e112d !important;
+    background-image: url("../img_src/fixed/small-image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Lato", "sans-serif" !important;
+  }
+
+  h2.section-title {
+    color: #ffe4d6;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Lato", "sans-serif";
+    margin-top: 15px !important;
+    text-align: center;
+  }
+
+  nav {
+    margin-bottom: 30vw;
+    text-align: center;
+    top: 0;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .footer-element {
+    color: #fe7f4a;
+    display: inline;
+    margin-left: 6%;
+    margin-right: 10% !important;
+  }
+
+  .job-role {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .label {
+    font-size: 15px !important;
+  }
+
+  .portfolio-image {
+    display: block;
+    margin: auto;
+    width: 35%;
+  }
+
+  .project-titles {
+    color: #ffe9dc;
+    font-size: 20px !important;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .project-links {
+    color: #ffdbc5  !important;
+  }
+
+
+  .title-super {
+    color: #fe7f4a !important;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .logo-container {
+    margin-top: -35px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .logo-container {
+    margin-top: -45px;
+    margin-bottom: -15px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    top: -20px;
+  }
+
+  .logo-container {
+    margin-top: -50px;
+  }
+
+  .portfolio-image {
+    display: block;
+    margin: auto;
+    width: 38%;
+  }
+
+  .project-titles {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  body {
+    background-color: #2E112D !important;
+    background-image: url("../img_src/fixed/x-small-image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Lato", "sans-serif" !important;
+  }
+
+  nav {
+    top: 33vw;
+  }
+
+  nav a {
+    font-size: 13px !important;
+
+
+  }
+
+  h2.section-title {
+    font-size: 20px !important;
+  }
+
+  .description {
+    border: 1px solid  #ffe9dd;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .job-role {
+    color: #ed423a !important;
+  }
+
+  .logo-container {
+    margin-top: -40px;
+    margin-bottom: 0;
+  }
+
+  .project-titles {
+    font-size: 17px !important;
+  }
+
+  .project-links {
+    font-size: 14px;
+  }
+
+  .title-super {
+    color: #530131 !important;
+  }
+}
