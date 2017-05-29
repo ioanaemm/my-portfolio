@@ -111,7 +111,7 @@
       </section>
       <section class="row">
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img/analytics-300.png" srcset="img/analytics-300.png 300w, img/analytics-200.png 200w" sizes="(max-width: 400px) 200vw, (min-width: 401px) 300vw" alt=" opearlo analytics ">
+          <img class="portfolio-image" src="img/bug.png" srcset="img/bug.png 300w, img/analytics-200.png 200w" sizes="(max-width: 400px) 200vw, (min-width: 401px) 300vw" alt=" opearlo analytics ">
           <h3 class="project-titles"> Arcade Game </h3>
           <a class="project-links" href="https://github.com/ioanaemm/frogger-non-canvas"> View Work</a>
         </div>
@@ -131,18 +131,25 @@
           <a class="project-links" href="https://github.com/ioanaemm/frontend-nanodegree-feedreader"> View Work</a>
         </div>
       </section>
-      <section class="row container">
+      <section class="row form">
         <form class="col-xs-12" action="/action_page.php">
-          <h2 id="form-title">Leave a message: </h2>
-          <label class="name-label" for="fname">First Name: </label>
+          <h2 id="form-title">Leave me a message: </h2>
+          <label class="form-label" for="fname">First Name: </label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label class="name-label" for="lname">Last Name: </label>
+          <label class="form-label" for="lname">Last Name: </label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label class="name-label" for="subject">Subject: </label>
+          <label class="form-label" for="subject">Subject: </label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          <input type="submit" value="Submit">
+          <div id="submit-btn">
+            <input type="submit" value="Submit">
+          </div>
         </form>
       </section>
+      <section id="mapDiv">
+        <h2 class="section-title">Places I've worked and lived</h2>
+        <div id="map"></div>
+      </section>
+
       <footer class="row">
         <div class="col-md-12">
           <a class="footer-element" href="https://www.linkedin.com/in/ioana-mitelea-068331ba?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin fa-2x icons"></i><span class=" label "> Linkedin </span></a>
@@ -151,6 +158,7 @@
         </div>
       </footer>
     </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKITbFZz0OpXKBzXj9WYZnmwG6ky-UG6w&callback=initMap"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
