@@ -27,7 +27,7 @@ function initMap() {
         featureType: "road.highway",
         elementType: "geometry.stroke",
         stylers: [
-          { color: "#ffffff" }
+          { color: "#ff6c40" }
         ]
       },
       {
@@ -63,14 +63,14 @@ function initMap() {
         elementType: "geometry",
         stylers: [
           { visibility: "on" },
-          { color: "#f0e4d3" }
+          { color: "#ff6c40" }
         ]
       },
       {
         featureType: "road.highway",
         elementType: "geometry.fill",
         stylers: [
-          {color: "#ffffff"},
+          {color: "#ff6c40"},
           { lightness: -25 }
         ]
       },
@@ -78,20 +78,20 @@ function initMap() {
         featureType: "road.arterial",
         elementType: "geometry.fill",
         stylers: [
-          {color: "#dddddd"}
+          {color: "#ff6c40"}
         ]
       },
       {
         featureType: "road.local",
         elementType: "geometry.fill",
         stylers: [
-          {color: "#FFF5CB"}
+          {color: "#ff6c40"}
         ]
       },
       {
         featureType: "landscape.natural",
         stylers: [
-          {color: "#ffdbc5"}
+          {color: "#ff6c40"}
         ]
       }
 
@@ -106,12 +106,12 @@ function initMap() {
     ['London, United Kingdom',51.5073509, -0.1277583]
   ];
 
-  var defaultIcon = "img_src/fixed/location-marker.png";
+  var defaultIcon = "img_src/marker.png";
 
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 51.5073509, lng: -0.1277583},
     scrollwheel: false,
-    zoom: 4,
+    zoom: 3,
     styles: styles
   });
 
@@ -128,8 +128,43 @@ function initMap() {
     });
   });
 
-
-
-
-
 }
+
+
+
+
+
+
+
+
+// Select all links with hashes
+$('a[href^="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+
+    // Figure out element to scroll to
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    // Does a scroll target exist?
+    if (target.length) {
+      // Only prevent default if animation is actually gonna happen
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000, function() {
+        // Callback after animation
+        // Must change focus!
+        var $target = $(target);
+        $target.focus();
+        if ($target.is(":focus")) { // Checking if the target was focused
+          return false;
+        } else {
+          $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+          $target.focus(); // Set focus again
+        };
+      });
+    }
+  });

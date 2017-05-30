@@ -43,14 +43,19 @@ nav a {
   padding: 8px;
 }
 
+.project-links:hover {
+  color: #e9a0e7 !important;
+  text-decoration: none !important;
+}
+
 nav a:hover {
-  color: #fdeee0;
+  color: white !important;
 }
 
 .description {
-  border: 2px solid  #ffe9dd;
+  border: 2px solid  #7b3979;
   border-radius: 5px;
-  color: #ffe9dd;
+  color: #e9a0e7;
   font-size: 18px;
   padding: 20px;
 }
@@ -64,21 +69,25 @@ nav a:hover {
 }
 
 .footer-element {
-  /*color: #fe7f4a !important;*/
-  /*color: #c154bb !important;*/
+  color: #ff6c40 !important;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-element .label {
+  color: #ff6c40 !important;
+}
+
+.footer-element:hover a {
+  color: white !important;
 }
 
 .label {
-  /*color: #fe7f4a !important;*/
-  color: #c154bb !important;
   font-weight: 400 !important ;
   font-size: 18px !important;
-}
-
-.icons {
-  color: #c154bb;
 }
 
 .job-role {
@@ -125,15 +134,17 @@ nav a:hover {
 
 .logo {
   margin-top: 15px;
+  margin-left: 30px;
 }
 
-.name-company, .school-name {
+.name-company,
+.school-name {
   color: #ff6c40;
   font-size: 18px;
 }
 
 .position {
-  color: #7e0032;
+  color: #ff6c40;
 }
 
 .date {
@@ -141,73 +152,24 @@ nav a:hover {
   font-size: 17px;
 }
 .city {
-  color: #c154bc;
+  color: #ff6c40;
   font-size: 18px;
 }
 
 .education-section .date, .city {
   margin-bottom: 15px;
-
 }
 
 .major {
-  color: #c8293f;
+  color: #ffe9dc;
 }
 
-input[type=text], textarea {
-  width: 100%;
-  border: 1px solid #2e112d;
-  border-radius: 3px;
-  padding: 12px;
-  box-sizing: border-box;
-  outline: none;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  background-color: #ffe9dc;
-}
-
-input[type=submit] {
-  padding: 10px 60px;
-  background-color: #ffe9dc;
-  border: 1px solid #ffe9dc;
-  border-radius: 3px;
-  color: #530030;
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  outline: none;
-
-}
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #51002f;
-  /*background-color: #ffe9dc;*/
-}
-
- .form-label {
-  color: #c154bb;
-  font-family: 'Lato', sans-serif !important;
-  font-weight: 300;
-  font-size: 20px;
-}
-
-.form {
-  padding: 40px;
-}
-
-#form-title {
-  color: #ffdbc5 !important;
-}
-
-#submit-btn {
-  text-align: center;
-}
 
 #mapDiv {
   height: 400px;
   width: 100%;
   padding-bottom: 6%;
+  margin-bottom: 50px;
 }
 
 #map {

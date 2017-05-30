@@ -1,3 +1,9 @@
+@media only screen and (max-width: 900px) {
+  .footer-element i {
+    font-size: 1.5em;
+  }
+}
+
 @media only screen and (max-width: 860px) {
   nav {
     top: -20px;
@@ -26,6 +32,10 @@
     margin-bottom: 30vw;
     text-align: center;
     top: 0;
+  }
+
+  .logo {
+    margin-left: 20px;
   }
 
   .description {
@@ -83,22 +93,49 @@
 }
 @media only screen and (max-width: 650px) {
   .logo-container {
-    margin-top: -45px;
-    margin-bottom: -15px;
+    margin-top: -40px;
+    margin-bottom: -5px;
   }
 
   .logo {
-    width: 60px;
+    width: 70px;
+    height: 70px;
+  }
+
+  nav a {
+    margin: 5px;
+    font-size: 17px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  nav a {
+    margin: 0px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   nav {
-    top: -20px;
+    top: 0px;
   }
 
   .logo-container {
-    margin-top: -50px;
+    margin-top: -40px;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .job-role {
+    /*font-size: 16px;*/
+  }
+
+  .title-super {
+    /*font-size: 25px;*/
   }
 
   .portfolio-image {
@@ -127,8 +164,7 @@
 
   nav a {
     font-size: 13px !important;
-
-
+    margin: 5px;
   }
 
   h2.section-title {
@@ -161,5 +197,16 @@
 
   .title-super {
     color: #530131 !important;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  nav a {
+    margin: 0px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  nav a:last-child {
+    margin-top: -10px;
   }
 }
