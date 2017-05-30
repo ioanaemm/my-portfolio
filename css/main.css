@@ -64,15 +64,21 @@ nav a:hover {
 }
 
 .footer-element {
-  color: #fe7f4a !important;
+  /*color: #fe7f4a !important;*/
+  /*color: #c154bb !important;*/
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .label {
-  color: #fe7f4a !important;
-  font-weight: 300 !important ;
+  /*color: #fe7f4a !important;*/
+  color: #c154bb !important;
+  font-weight: 400 !important ;
   font-size: 18px !important;
+}
+
+.icons {
+  color: #c154bb;
 }
 
 .job-role {
@@ -157,6 +163,7 @@ input[type=text], textarea {
   outline: none;
   margin-top: 6px;
   margin-bottom: 16px;
+  background-color: #ffe9dc;
 }
 
 input[type=submit] {
@@ -175,13 +182,14 @@ input[type=submit] {
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #51002f;
+  /*background-color: #ffe9dc;*/
 }
 
  .form-label {
-  color: #ffdbc5;
+  color: #c154bb;
   font-family: 'Lato', sans-serif !important;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .form {
@@ -206,4 +214,17 @@ input[type=submit] {
   display: block;
   height: 100%;
   margin: 0 3%;
+}
+
+/************ CSS Contact page ********/
+
+
+
+#contact-page {
+  background-color: #2e112d !important;
+  background-image: url("../img_src/fixed/big-image.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+
+  font-family: "Lato", "sans-serif" !important;
 }
