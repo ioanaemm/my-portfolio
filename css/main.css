@@ -100,6 +100,7 @@ nav a:hover {
   display: block;
   margin: auto;
   width: 50%;
+  cursor: pointer;
 }
 
 .portfolio-projects {
@@ -165,7 +166,7 @@ nav a:hover {
 }
 
 
-#mapDiv {
+#map-container {
   height: 400px;
   width: 100%;
   padding-bottom: 6%;
@@ -178,15 +179,52 @@ nav a:hover {
   margin: 0 3%;
 }
 
-/************ CSS Contact page ********/
+/************ CSS Modals********/
 
+span.project-instruction {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700 !important;
+  color: #2e112d !important;
+}
 
+span.technology {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700 !important;
+  color: #ff6c40 !important;
+}
 
-#contact-page {
-  background-color: #2e112d !important;
-  background-image: url("../img_src/fixed/big-image.jpg");
-  background-size: contain;
-  background-repeat: repeat;
+.project-description {
+  color: #5c1d50;
+  font-size: 16px;
+}
 
-  font-family: "Lato", "sans-serif" !important;
+.modal-content {
+  background-color: #f9e8de !important;
+}
+
+.modal-title {
+  color: #bf4bbb;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.modal-project-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.btn {
+  letter-spacing: 1px;
+  font-size: 17px;
+
+}
+
+button.btn-default {
+  color: #fff;
+  border: 1px solid #5c1d50;
+  background-color: #5c1d50;
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!--CDN link for  TweenMax-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--Font Awesome CDN -->
@@ -14,6 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container-fluid">
@@ -95,64 +98,53 @@
       </section>
       <section class="row">
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img/analytics-300.png" alt=" opearlo analytics ">
-          <h3 class="project-titles"> Opearlo Analytics </h3>
-          <a class="project-links" href="https://analytics.opearlo.com/"> View Work</a>
+          <img class="portfolio-image" src="img_src/arcade-game.png" alt="opearlo analytics" data-toggle="modal" data-target="#project1">
+          <h3 class="project-titles"> Arcade Game </h3>
+          <a class="project-links" href="https://github.com/ioanaemm/frogger-non-canvas"> Source Code</a>
+          <a class="project-links" href="projects_html/frogger-non-canvas-master/index.html"> Demo</a>
         </div>
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img/colors-300.png" alt=" color schemes ">
-          <h3 class="project-titles"> Color Scheme Website </h3>
-          <a class="project-links" href="https://github.com/udacity/resume/">View Work</a>
+          <img class="portfolio-image" src="img_src/map.png"alt="opearlo analytics" data-toggle="modal" data-target="#project2">
+          <h3 class="project-titles"> Neighbourhood Map </h3>
+          <a class="project-links" href="https://github.com/ioanaemm/neighbourhood-map"> Source Code</a>
+          <a class="project-links" href="projects_html/neighbourhood-map/index.html"> Demo</a>
         </div>
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img_src/diamond.png" alt="diamond">
-          <h3 class="project-titles"> Jewelery Website </h3>
-          <a class="project-links" href="https://github.com/udacity/JewerelyWebsite/">View Work</a>
+          <img class="portfolio-image" src="img_src/analytics.png" alt="opearlo analytics" data-toggle="modal" data-target="#project3">
+          <h3 class="project-titles"> Website Optimization </h3>
+          <a class="project-links" href="https://github.com/ioanaemm/frontend-nanodegree-mobile-portfolio"> Source Code</a>
+          <a class="project-links" href="projects_html/frontend-nanodegree-mobile-portfolio-master/views/pizza.html"> Demo</a>
         </div>
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img_src/excavator.png" alt="excavator">
-          <h3 class="project-titles"> Builder Company Website  </h3>
-          <a class="project-links" href="http://www.miteleaioana.biz.ht/briconstruct"> View Work </a>
+          <img class="portfolio-image" src="img_src/analytics.png"alt="opearlo analytics" data-toggle="modal" data-target="#project4">
+          <h3 class="project-titles"> Feedreader Tests </h3>
+          <a class="project-links" href="https://github.com/ioanaemm/frontend-nanodegree-feedreader"> Source Code</a>
+          <a class="project-links" href="projects_html/frontend-nanodegree-feedreader-master/index.html"> Demo</a>
         </div>
       </section>
       <section class="row">
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img_src/arcade-game.png" alt="opearlo analytics">
-          <h3 class="project-titles"> Arcade Game </h3>
-          <a class="project-links" href="https://github.com/ioanaemm/frogger-non-canvas"> View Work</a>
+          <img class="portfolio-image" src="img_src/analytics.png" alt="opearlo analytics" data-toggle="modal" data-target="#project5">
+          <h3 class="project-titles"> Opearlo Analytics </h3>
+          <a class="project-links" href="https://analytics.opearlo.com/"> Demo</a>
         </div>
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img_src/map.png"alt="opearlo analytics">
-          <h3 class="project-titles"> Neighbourhood Map </h3>
-          <a class="project-links" href="https://github.com/ioanaemm/neighbourhood-map"> Source Code</a>
-          <a class="project-links" href="projects_html/neighbourhood-map/index.html"> Preview</a>
+          <img class="portfolio-image" src="img_src/colors.png" alt="color schemes" data-toggle="modal" data-target="#project6">
+          <h3 class="project-titles"> Color Scheme Website </h3>
+          <a class="project-links" href="http://www.miteleaioana.biz.ht/schemagic/">Demo</a>
         </div>
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img_src/analytics.png" alt="opearlo analytics">
-          <h3 class="project-titles"> Website Optimization </h3>
-          <a class="project-links" href="https://github.com/ioanaemm/frontend-nanodegree-mobile-portfolio"> View Work</a>
+          <img class="portfolio-image" src="img_src/diamond.png" alt="diamond" data-toggle="modal" data-target="#project7">
+          <h3 class="project-titles"> Jewelery Website </h3>
+          <a class="project-links" href="http://www.miteleaioana.biz.ht/jewelery/">Demo</a>
         </div>
         <div class="col-sm-3 col-xs-6 portfolio-projects">
-          <img class="portfolio-image" src="img_src/analytics.png"alt="opearlo analytics">
-          <h3 class="project-titles"> Feedreader Tests </h3>
-          <a class="project-links" href="https://github.com/ioanaemm/frontend-nanodegree-feedreader"> View Work</a>
+          <img class="portfolio-image" src="img_src/excavator.png" alt="excavator" data-toggle="modal" data-target="#project8">
+          <h3 class="project-titles"> Builder Company Website  </h3>
+          <a class="project-links" href="http://www.miteleaioana.biz.ht/briconstruct"> Demo </a>
         </div>
       </section>
-      <!--<section class="row form">
-        <form class="col-xs-12" action="/action_page.php">
-          <h2 id="form-title">Leave me a message: </h2>
-          <label class="form-label" for="fname">First Name: </label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label class="form-label" for="lname">Last Name: </label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label class="form-label" for="subject">Subject: </label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          <div id="submit-btn">
-            <input type="submit" value="Submit">
-          </div>
-        </form>
-      </section>-->
-      <section id="mapDiv">
+      <section id="map-container">
         <h2 class="section-title">Places I've worked and lived</h2>
         <div id="map"></div>
       </section>
@@ -169,6 +161,184 @@
         </div>
       </footer>
     </div>
+    <!--<img class="portfolio-image" src="img_src/arcade-game.png" data-toggle="modal" data-target="#project1">-->
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Arcade Game</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project1.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on source code and download the zip file and then open index.html. <br>
+                <span class="project-instruction">How to play:</span> Use the arrow keys to navigate the game. Try to reach the water while avoiding contact with the bugs, otherwise the game will reset.
+                <br>
+                Technologies used for this project are: <span class="technology">HTML5, CSS3, jQuery, TweenMax.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Neighbourhood Map</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project2.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on source code and download the zip file and then open index.html. <br>
+                <span class="project-instruction">How to use:</span>  The purpose of this project is to search for the best coffee places in Paris using Google Maps API and Foursquare's API to see how many people have checked-in in those places.
+                <br>
+                Technologies used for this project are: <span class="technology">HTML5, CSS3, jQuery, Knockout JS, AJAX, Google Maps API.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Website Optimization</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project3.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on source code, download the zip file and then go to views folder and open pizza.html. <br>
+                <span class="project-instruction">How to use:</span> This was a given website from Udacity and I had optimizate it as much as I could. <br>
+                 There were a few requirments such as: using PageSpeed Insight tool, in order to check how fast the website was loading on all kind of devices.
+                <br>
+                Technologies used for this project are: <span class="technology">JavaScript, Google Developer Tools, Gulp Task Runner, PageSpeed Insights\.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Feedreader Tests</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project8.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on source code and download the zip file and then open index.html. <br>
+                <span class="project-instruction">Purpose:</span> For this project I had to implement unit tests for a web-based application that reads RSS feeds. Unit tests are necessary in the software-development process, in order to make sure future feature development doesn't break existing features.
+                <br>
+                Technologies used for this project are: <span class="technology">JavaScript, Jasmine.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Opearlo Analytics</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project4.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on the Demo link below the icon and create an account to see navigate through the dashboard. <br>
+                <span class="project-instruction">How to use:</span> One of the tasks of this project was to implement graphs for the dashboard analytics in order to help people to keep track of their Amazon Alexa Skills. <br>
+                Other task was to create the Voice Pathways part to count the number of voice events.
+                Technologies used for this project are: <span class="technology">HTML5, CSS3, React, Recharts.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Color Scheme Website</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project5.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on the Demo link below the icon to see the project. <br>
+                <span class="project-instruction">Purpose:</span> This project was built as a  Try to reach the water while avoiding contact with the bugs, otherwise the game will reset. <br>
+                Technologies used for this project are: <span class="technology">HTML5, CSS3, jQuery, TweenMax.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Jewelery Website</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project6.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on the Demo link below the icon to see the project.  <br>
+                <span class="project-instruction">Purpose:</span> Initially this was a mock-up and I've build it as an website.
+                <br>
+                Technologies used for this project are: <span class="technology">HTML5, CSS3, Bootstrap.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Builder Company Website</h4>
+          </div>
+          <div class="modal-body">
+              <img class="modal-project-image" src="projects_html/project7.jpg">
+              <p class="project-description">
+                <span class="project-instruction">How to run:</span> Click on the Demo link below the icon to see the project. <br>
+                <span class="project-instruction">How to play:</span> This is an in progress website for a builder company.
+                Technologies used for this project are: <span class="technology">HTML5, CSS3, Bootstrap, jQuery, TweenMax.</span>
+              </p>
+
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKITbFZz0OpXKBzXj9WYZnmwG6ky-UG6w&libraries=drawing,geometry&v=3&&callback=initMap"></script>
     <script src="js/main.js"></script>
   </body>

@@ -168,3 +168,17 @@ $('a[href^="#"]')
       });
     }
   });
+
+
+// TweenMax animation
+  var image = $('.portfolio-image');
+
+  $(image).mouseover(function(event){
+    console.log(event);
+    TweenMax.to(event.target, 0.35, {scale: 1.3});
+  });
+  $(image).mouseleave(function(event){
+    console.log(event);
+    TweenMax.to(event.target, 0.2, {scale: 1});
+    console.log("not working");
+  });

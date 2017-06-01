@@ -1,0 +1,35 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioanaemm/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioanaemm/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/ioanaemm/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-image": "^2.7.6",
+    "gulp-image-resize": "^0.12.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-minify": "0.0.15",
+    "gulp-uglify": "^2.1.2",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp-babel": "^6.1.2",
+    "lossy-imagemin": "0.0.3"
+  }
+}
